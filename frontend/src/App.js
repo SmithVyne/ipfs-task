@@ -12,7 +12,6 @@ const Wrapper = styled.div`
   min-height: 100vh;
   flex-direction: column;
   gap: 50px;
-  background-color: rgb(50 54 57);
   > div {
     display: flex;
     align-items: center;
