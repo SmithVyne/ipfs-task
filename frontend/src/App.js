@@ -22,7 +22,9 @@ const Wrapper = styled.div`
 `;
 
 const ROUTES = {
-  ipfs: process.env.REACT_APP_BACKEND_URL || "http://localhost:3001/ipfs",
+  ipfs:
+    (process.env.REACT_APP_BACKEND_URL || "http://localhost:3001") + "/ipfs",
+  api: (process.env.REACT_APP_BACKEND_URL || "http://localhost:3001") + "/api",
 };
 
 const props = {
